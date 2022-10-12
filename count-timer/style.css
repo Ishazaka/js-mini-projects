@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-areas{
+    display: flex;
+    flex-direction: row;
+}
+.input-areas div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+.input-areas div input{
+    height: 60px;
+    width: 70px;
+    font-size: 32px;
+    text-align: center;
+}
