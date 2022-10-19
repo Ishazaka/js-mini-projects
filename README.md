@@ -1,4 +1,5 @@
 # js-mini-projects
 
 
-this is auto text mini javascript project. 
+
+https://portfolio-app-d.netlify.app/
