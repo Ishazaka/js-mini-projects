@@ -1,0 +1,53 @@
+
+
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 400px;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+  
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+   
+}
+.form-control.success input{
+    border: 2px solid green;
+}
+.form-control.error input{
+    border: 2px solid red;
+}
+input{
+    height: 40px;
+    width: 260px;
+    border-radius: 4px;
+}
+i{
+    visibility: hidden;
+}
+.form-control.success i.fa-check-circle{
+    visibility: visible;
+  color : green;
+}
+.form-control.error i.fa-exclamation-circle{
+    visibility: visible;
+    color : red;
+}
+small{
+    visibility: hidden;
+}
+.form-control.error small{
+    color: red;
+    visibility: visible;
+}
